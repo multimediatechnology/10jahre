@@ -11,8 +11,6 @@ github_username:  multimediatechnology
 
 # Build settings
 markdown: kramdown
-gems:
-  - jekyll-assets
 plugins:
   - jekyll-assets
 
