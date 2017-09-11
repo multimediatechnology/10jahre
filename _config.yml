@@ -1,0 +1,32 @@
+title: MMT 10th anniversary
+email: hannes.moser@fh-salzburg.ac.at
+description: >
+  MultiMediaTechnology celebrates its 10th anniversary. We would like to invite
+  all friends, partners & alumni to celebrate with us in an extraordinary two
+  day fest.
+baseurl: "/"
+url: "https://ten.multimediatechnology.at"
+twitter_username: fhsalzburg
+github_username:  multimediatechnology
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-assets
+plugins:
+  - jekyll-assets
+
+assets:
+  compress:
+    css: default
+    scss: default
+    js: default
+  autowrite: true
+  prefix: "/assets"
+  digest: true
+  assets:
+    - "*.png"
+    - "*.jpg"
+    - "*.jpeg"
+    - "*.gif"
+    - "bundle.css"
