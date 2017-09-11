@@ -1,2 +1,4 @@
-# 10jahre
-Website for 10 years MultiMediaTechnology.
+# MMT 10th anniversary
+
+> Website for MMT 10th anniversary.
+
