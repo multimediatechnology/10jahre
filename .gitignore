@@ -1,6 +1,9 @@
 # IDE
 .idea/
 
+# System
+*.DS_Store
+
 # Build
 .asset-cache/
 .sass-cache/
