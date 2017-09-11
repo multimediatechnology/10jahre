@@ -4,6 +4,10 @@
 # System
 *.DS_Store
 
+# Node
+node_modules/
+npm-debug.log
+
 # Build
 .asset-cache/
 .sass-cache/
