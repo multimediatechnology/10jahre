@@ -4,7 +4,8 @@
   "description": "Website for MMT 10th anniversary.",
   "main": "_assets/javascripts/main.js",
   "scripts": {
-    "start": "webpack --watch --progress --config webpack.config.js",
+    "postinstall": "cross-env bundle",
+    "start": "cross-env ./scripts/start.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -27,6 +28,8 @@
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.0",
+    "cross-env": "^5.0.5",
+    "parallelshell": "^3.0.1",
     "webpack": "^3.5.6"
   }
 }

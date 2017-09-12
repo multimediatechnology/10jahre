@@ -5,8 +5,12 @@
 # Setup & Dev
 
 ```bash
-gem install jekyll bundler
-bundle
+npm install
+npm start
 
-jekyll s
 ```
+
+# Dependencies
+
+* [Ruby](https://www.ruby-lang.org/de/)
+* [Node.js](https://nodejs.org/en/)

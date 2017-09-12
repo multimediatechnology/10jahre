@@ -21,4 +21,5 @@ assets:
   digest: true
 
 exclude:
+  - scripts
   - node_modules
