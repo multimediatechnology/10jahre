@@ -13,6 +13,7 @@ github_username:  multimediatechnology
 markdown: kramdown
 plugins:
   - jekyll-assets
+  - jemoji
 
 assets:
   autowrite: true

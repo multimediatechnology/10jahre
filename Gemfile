@@ -11,6 +11,7 @@ group :jekyll_plugins do
   gem "bootstrap", "~> 4.0.0.beta"
   gem "font-awesome-sass", "~> 4.7.0"
   gem "jekyll-assets", "~> 2.3.2"
+  gem "jemoji", "~> 0.8.0"
   gem "sprockets-es6", "~> 0.9.2"
   gem "uglifier"
 end

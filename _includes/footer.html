@@ -1,30 +1,29 @@
 <footer class="container">
-  <ul>
-    <li>
-      {% if site.author %}
-      {{ site.author | escape }}
-      {% else %}
-      {{ site.title | escape }}
-      {% endif %}
+
+  <hr class="my-5">
+
+  <ul class="nav justify-content-center">
+    <li class="nav-item">
+      <p class="navbar-text">
+        {% if site.author %}
+        {{ site.author | escape }}
+        {% else %}
+        {{ site.title | escape }}
+        {% endif %}
+      </p>
     </li>
-    {% if site.email %}
-    <li>
-      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-    </li>
-    {% endif %}
-  </ul>
-  <ul>
+
     {% if site.github_username %}
-    <li>
+    <li class="nav-item">
       {% include icon-github.html username=site.github_username %}
     </li>
     {% endif %}
 
     {% if site.twitter_username %}
-    <li>
+    <li class="nav-item">
       {% include icon-twitter.html username=site.twitter_username %}
     </li>
     {% endif %}
   </ul>
-  <p>{{ site.description | escape }}</p>
+
 </footer>
