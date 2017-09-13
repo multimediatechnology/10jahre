@@ -4,6 +4,8 @@
   "description": "Website for MMT 10th anniversary.",
   "main": "_assets/javascripts/main.js",
   "scripts": {
+    "build": "npm run clean && cross-env jekyll build",
+    "clean": "cross-env jekyll clean",
     "postinstall": "cross-env bundle",
     "start": "cross-env ./scripts/start.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
