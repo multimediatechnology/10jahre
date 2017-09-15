@@ -2,35 +2,44 @@
 layout: default
 ---
 
-<hr class="mb-5">
 
-<section>
-  <h1 class="text-center display-4">
-    We celebrate
-    <br>
-    10 Years of MMT 🎉
-  </h1>
 
-  <div class="row justify-content-center mt-3">
-    <div class="col-8">
+<section class="row justify-content-center teaser align-items-start">
+  <div class="text-center col-4 teaser__left">
+    <h1 class="display-4 text-right teaser_heading">
+      <!--🎉--><br>We celebrate<br><span class="highlighted">10 Years</span> of MMT!</h1>
+  </div>
+
+  <div class="col-5 teaser__right">
+    <div class="teaser_text">
       {{ content }}
     </div>
   </div>
+</section>
 
-  <h2 class="text-center mt-5 mb-5">
-    🗓Schedule
-    <br>
-    <small class="text-muted">(It's just a rough one)</small>
-  </h2>
+
+
+<section class="schedule">
+  <div class="row justify-content-center align-items-start">
+    <div class="col-6 schedule__heading">
+      <h1 class="heading display-5">
+        What we've got planned for the weekend
+      </h1>
+    </div>
+  </div>
+
 
   <div class="row justify-content-center">
-    <div class="col-4">
-      <h4 class="text-center text-muted">Friday, March 2nd 2018</h4>
+    <div class="col-5 day schedule__left">
+      <h3 class="text-center date">
+        <span class="heading--date">March 2<sup>nd</sup> 2018</span><br>
+        <span class="heading--day">Friday</span>
+      </h3>
 
-      <h5 class="text-center mt-5">
-        {% img barcamp class="img-fluid" width="75%" %}
+      <h5 class="text-center">
+        {% img barcamp class="img-fluid" width="300px" %}
       </h5>
-      <dl class="mt-5">
+      <dl class="">
         <dt>09:00 <i>Kickoff</i></dt>
         <dd>Say Hello to old friends and make new ones!</dd>
 
@@ -51,13 +60,15 @@ layout: default
       </dl>
     </div>
 
-    <div class="col-4">
-      <h4 class="text-center text-muted">Saturday, March 3rd 2018</h4>
-
-      <h5 class="text-center mt-5">
-        {% img concat class="img-fluid" width="75%" %}
+    <div class="col-5 day schedule__right">
+      <h3 class="text-center date">
+        <span class="heading--date">March 3<sup>rd</sup> 2018</span><br>
+        <span class="heading--day">Saturday</span>
+      </h3>
+      <h5 class="text-center">
+        {% img concat class="img-fluid" width="200px" %}
       </h5>
-      <dl class="mt-5">
+      <dl class="">
         <dt>09:00 <i>Breakfast</i></dt>
         <dd>Say Hello to old friends and make new ones!</dd>
 
@@ -83,10 +94,9 @@ layout: default
   </div>
 
   <div class="row justify-content-center">
-
-    <div class="col-4">
+    <div class="col-5 day">
       <h5 class="text-center mt-5">
-        {% img ludecat class="img-fluid" width="75%" %}
+        {% img ludecat class="img-fluid" width="300px" %}
       </h5>
       <dl class="mt-5">
         <dt>18:00 <i>Find a Team</i></dt>
@@ -102,7 +112,7 @@ layout: default
       </dl>
     </div>
 
-    <div class="col-4">
+    <div class="col-5 day">
       <h5 class="text-center mt-5">
         {% img concat class="img-fluid" width="75%" %}
       </h5>
@@ -120,9 +130,10 @@ layout: default
       </dl>
     </div>
   </div>
-</section>
 
-<hr class="my-5">
+
+
+
 
 <section class="mt-5">
   <h2 class="text-center mt-5 mb-5">
@@ -177,3 +188,5 @@ layout: default
   </div>
 
 </section>
+
+
