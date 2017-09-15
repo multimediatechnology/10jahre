@@ -21,5 +21,10 @@ assets:
   digest: true
 
 exclude:
-  - scripts
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - webpack
   - node_modules
+  - scripts
