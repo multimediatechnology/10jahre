@@ -3,132 +3,145 @@ layout: default
 ---
 
 
-<section class="row justify-content-center teaser align-items-start">
-  <div class="text-center col-4 teaser__left">
-    <h1 class="display-4 text-right teaser_heading">
+<section class="home row justify-content-center align-items-start">
+  <div class="text-center col-4 home__left">
+    <h1 class="display-4 text-right home_heading">
       <!--🎉--><br>We celebrate<br><span class="highlighted">10 Years</span> of MMT!</h1>
   </div>
 
-  <div class="col-5 teaser__right">
-    <div class="teaser_text">
+  <div class="col-5 home__right">
+    <div class="home_text">
       {{ content }}
     </div>
   </div>
 </section>
 
 
+<section class="schedule-teaser row justify-content-center align-items-start">
+  <div class="col-1"></div>
+  <div class="col-3 schedule-teaser__left">
+    <h1 class="schedule-teaser__heading display-5">
+      <span style="color:#fff">Schedule of Events</span> for our celebration weekend
+    </h1>
+  </div>
+  <div class="col-4 schedule-teaser__right">
+    <div class="schedule-teaser__text">
+      <p>
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      </p>
+    </div>
+  </div>
+</section>
+
 
 <section class="schedule">
-  <div class="row justify-content-center align-items-start">
-    <div class="col-6 schedule__heading">
-      <h1 class="heading display-5">
-        What we've got planned for the weekend
-      </h1>
-    </div>
-  </div>
-
-
-  <div class="row justify-content-center">
-    <div class="col-5 day schedule__left">
-      <h3 class="text-center date">
-        <span class="heading--date">March 2<sup>nd</sup> 2018</span><br>
-        <span class="heading--day">Friday</span>
+  <div class="row d-flex justify-content-center align-items-start day1">
+    <div class="col-2"></div>
+    <div class="col-5 date">
+      <h3 class="date__headline">
+        <span class="date__headline--day">Friday</span>
+        <span class="date__headline--date">| March 2<sup>nd</sup> 2018</span>
       </h3>
-
-      <h5 class="text-center">
-        {% img barcamp class="img-fluid" width="300px" %}
-      </h5>
-      <dl class="">
-        <dt>09:00 <i>Kickoff</i></dt>
-        <dd>Say Hello to old friends and make new ones!</dd>
-
-        <dt>10:00 <i>Session Planning</i></dt>
-        <dd>Propose a talk, it you can find at least one person intersted, you are good to go.</dd>
-
-        <dt>11:00 <i>Talks, Talks, Talks</i></dt>
-        <dd><strong>K</strong>nowledge <strong>T</strong>ransfer <strong>D</strong>eluxe</dd>
-
-        <dt>12:30 <i>Lunch Break</i></dt>
-        <dd>Delicious food, served by Franz & Friends.</dd>
-
-        <dt>14:00 <i>Talks Pt. 2</i></dt>
-        <dd>Listen baby, ain't no …</dd>
-
-        <dt>17:00 <i>Retrospective</i></dt>
-        <dd>Dump your💩 here.</dd>
-      </dl>
     </div>
+    <div class="col-6 day">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-5 day__left">
+          {% img barcamp class="event-logo" %}
+          <dl class="day__timetable">
+            <dt><time datetime="2018-03-02 09:00">9 am</time><br> <h5 class="headline">Kickoff</h5></dt>
+            <dd>Say Hello to old friends and make new ones!</dd>
 
-    <div class="col-5 day schedule__right">
-      <h3 class="text-center date">
-        <span class="heading--date">March 3<sup>rd</sup> 2018</span><br>
-        <span class="heading--day">Saturday</span>
+            <dt><time datetime="2018-03-02 10:00">10 am</time><br> <h5 class="headline">Session Planning</h5></dt>
+            <dd>Propose a talk, it you can find at least one person intersted, you are good to go.</dd>
+
+            <dt><time datetime="2018-03-02 11:00">11 am</time><br> <h5 class="headline">Talks, Talks, Talks</h5></dt>
+            <dd>Knowledge Transfer Deluxe</dd>
+
+            <dt><time datetime="2018-03-02 12:30">12:30 pm</time><br> <h5 class="headline">Lunch Break</h5></dt>
+            <dd>Delicious food, served by Franz & Friends.</dd>
+
+            <dt><time datetime="2018-03-02 14:00">2 pm</time><br> <h5 class="headline">Talks Pt. 2</h5></dt>
+            <dd>Listen baby, ain't no …</dd>
+
+            <dt><time datetime="2018-03-02 17:00">5 pm</time><br> <h5 class="headline">Retrospective</h5></dt>
+            <dd>Dump your💩 here.</dd>
+          </dl>
+        </div>
+        <div class="col-5 day__right">
+          {% img ludecat class="event-logo" %}
+          <dl class="day__timetable">
+            <dt><time datetime="2018-03-02 18:00">6 pm</time><br> <h5 class="headline">Find a Team</h5></dt>
+            <dd>You are a single player or you brought all your friends? Does not matter. Everyone is allowed to play with us.
+            </dd>
+
+            <dt><time datetime="2018-03-02 19:00">7 pm</time><br> <h5 class="headline">Group Stage</h5></dt>
+            <dd>Up to 6 groups. No mercy.</dd>
+
+            <dt><time datetime="2018-03-02 23:00">11 pm</time><br> <h5 class="headline">Final Round</h5></dt>
+            <dd>…and ✌️</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="col-1"></div>
+  </div>
+  <div class="row d-flex justify-content-center align-items-start day2">
+    <div class="col-3"></div>
+    <div class="col-5 mr-auto date">
+      <h3 class="date__headline">
+        <span class="date__headline--day">Saturday</span>
+        <span class="date__headline--date">| March 3<sup>rd</sup> 2018</span>
       </h3>
-      <h5 class="text-center">
-        {% img concat class="img-fluid" width="200px" %}
-      </h5>
-      <dl class="">
-        <dt>09:00 <i>Breakfast</i></dt>
-        <dd>Say Hello to old friends and make new ones!</dd>
-
-        <dt>10:00 <i>Keynote</i></dt>
-        <dd>Propose a talk, it you can find at least one person intersted, you are good to go.</dd>
-
-        <dt>11:00 <i>Talks, Talks, Talks</i></dt>
-        <dd><strong>K</strong>nowledge <strong>T</strong>ransfer <strong>D</strong>eluxe</dd>
-
-        <dt>12:30 <i>Lunch Break</i></dt>
-        <dd>Delicious food, served by Franz & Friends.</dd>
-
-        <dt>14:00 <i>Talks Pt. 2</i></dt>
-        <dd>Listen baby, ain't no …</dd>
-
-        <dt>17:00 <i>Lightning Talks</i></dt>
-        <dd>Dump your💩 here.</dd>
-
-        <dt>18:00 <i>Closing Task</i></dt>
-        <dd>Dump your💩 here.</dd>
-      </dl>
     </div>
+
+    <div class="col-6 ml-auto day">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-5 day__left">
+          {% img concat class="event-logo" %}
+          <dl class="day__timetable">
+            <dt><time datetime="2018-03-02 09:00">9 am</time><br> <h5 class="headline">Breakfast</h5></dt>
+            <dd>Say Hello to old friends and make new ones!</dd>
+
+            <dt><time datetime="2018-03-03 10:00">10 am</time><br> <h5 class="headline">Keynote</h5></dt>
+            <dd>Propose a talk, it you can find at least one person intersted, you are good to go.</dd>
+
+            <dt><time datetime="2018-03-03 11:00">11 am</time><br> <h5 class="headline">Talks, Talks, Talks</h5></dt>
+            <dd>Knowledge Transfer Deluxe</dd>
+
+            <dt><time datetime="2018-03-03 12:30">12:30 pm</time><br> <h5 class="headline">Lunch Break</h5></dt>
+            <dd>Delicious food, served by Franz & Friends.</dd>
+
+            <dt><time datetime="2018-03-03 14:00">2 pm</time><br> <h5 class="headline">Talks Pt. 2</h5></dt>
+            <dd>Listen baby, ain't no …</dd>
+
+            <dt><time datetime="2018-03-03 17:00">5 pm</time><br> <h5 class="headline">Lightning Talks</h5></dt>
+            <dd>Dump your💩 here.</dd>
+
+            <dt><time datetime="2018-03-03 18:00">5 pm</time><br> <h5 class="headline">Closing Talk</h5></dt>
+            <dd>Dump your💩 here.</dd>
+          </dl>
+        </div>
+        <div class="col-5 day__right">
+          {% img concat class="event-logo" %}
+          <dl class="day__timetable">
+            <dt><time datetime="2018-03-03 20:00">8 pm</time><br> <h5 class="headline">Party</h5></dt>
+            <dd>You are a single player or you brought all your friends? Does not matter. Everyone is allowed to play with us.
+            </dd>
+
+            <dt><time datetime="2018-03-04 00:00">12 am</time><br> <h5 class="headline">End of the Show</h5></dt>
+            <dd>Up to 6 groups. No mercy.</dd>
+
+            <dt><time datetime="2018-03-04 06:00">6 am</time><br> <h5 class="headline">That's your fault</h5></dt>
+            <dd>…and ✌️</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="col-2"></div>
   </div>
+</section>
 
-  <div class="row justify-content-center">
-    <div class="col-5 day">
-      <h5 class="text-center mt-5">
-        {% img ludecat class="img-fluid" width="300px" %}
-      </h5>
-      <dl class="mt-5">
-        <dt>18:00 <i>Find a Team</i></dt>
-        <dd>You are a single player or you brought all your friends? Does not matter. Everyone is allowed to play with
-          us.
-        </dd>
 
-        <dt>19:00 <i>Group Stage</i></dt>
-        <dd>Up to 6 groups. No mercy.</dd>
-
-        <dt>23:00 <i>Final Round</i></dt>
-        <dd>…and ✌️</dd>
-      </dl>
-    </div>
-
-    <div class="col-5 day">
-      <h5 class="text-center mt-5">
-        {% img concat class="img-fluid" width="75%" %}
-      </h5>
-      <dl class="mt-5">
-        <dt>20:00 <i>Party</i></dt>
-        <dd>You are a single player or you brought all your friends? Does not matter. Everyone is allowed to play with
-          us.
-        </dd>
-
-        <dt>24:00 <i>End of the Show</i></dt>
-        <dd>Up to 6 groups. No mercy.</dd>
-
-        <dt>06:00 <i>That's your fault</i></dt>
-        <dd>…and ✌️</dd>
-      </dl>
-    </div>
-  </div>
 
 
 <section class="mt-5">
