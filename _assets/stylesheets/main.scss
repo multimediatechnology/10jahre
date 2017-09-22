@@ -68,7 +68,8 @@ header {
     left: 0;
     right: 0;
     margin: 0 auto;
-    bottom: -55px;
+    bottom: -60px;
+    width: 230px;
   }
 }
 
@@ -208,12 +209,30 @@ header {
       margin: 0 0 1.5rem 0;
     }
   }
-
-
 }
 
 .event-logo {
   height: 60px;
   width: auto;
   margin-bottom: 2rem;
+}
+
+.sponsorship {
+  .sponsorship__right {
+    background: $tertiary-color;
+  }
+
+  .sponsorship__heading {
+    padding: 60px 20px 30px;
+  }
+
+  .sponsorship__left {
+    background: $white;
+    margin-top: 80px;
+  }
+
+  .sponsorship__text {
+    margin: 50px 20px;
+    font-size: 1.2rem;
+  }
 }
