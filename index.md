@@ -2,4 +2,7 @@
 layout: home
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In Fall of 2018 the first cohort of students started on their jouney to become professional web developers or game developers. 
+Today there are 180 graduates of our bachelor and master programs out there in industry.
+
+Today we celebrate their success.

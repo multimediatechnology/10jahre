@@ -19,6 +19,8 @@ assets:
   autowrite: true
   prefix: "/assets"
   digest: true
+  sources:
+    - _assets/documents
 
 exclude:
   - Gemfile
