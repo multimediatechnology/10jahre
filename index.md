@@ -2,7 +2,6 @@
 layout: home
 ---
 
-In Fall of 2018 the first cohort of students started on their jouney to become professional web developers or game developers. 
-Today there are 180 graduates of our bachelor and master programs out there in industry.
+In fall of 2008, the first cohort of students started on their journey to become professional web or game developers. Today, there are more than 180 graduates of our Bachelor and master programs out there in the industry.
 
-Today we celebrate their success.
+It's time to celebrate their success!
