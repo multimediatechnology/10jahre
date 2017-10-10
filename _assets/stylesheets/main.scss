@@ -236,3 +236,12 @@ header {
     font-size: 1.2rem;
   }
 }
+
+.footer {
+  section.footer__links {
+    ul.nav {
+      background-color: $white;
+    }
+  }
+
+}
