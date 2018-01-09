@@ -1,6 +1,5 @@
 @charset "utf-8";
 @import "bootstrap";
-
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif');
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,600,700');
 
@@ -11,8 +10,6 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Bree Serif', serif;
 }
-
-
 
 $header-height: 100vh;
 
@@ -30,7 +27,7 @@ $steel-gray: #D5DED9;
 
 header {
   background-color: #99B2B7;
-  background-image: image-url( "fh-foto2.jpg" );
+  background-image: image-url("fh-foto2.jpg");
   background-size: cover;
   background-position: center;
   position: fixed;
@@ -44,7 +41,6 @@ header {
   position: relative;
   z-index: 4;
 }
-
 
 .logo {
   position: fixed;
@@ -72,7 +68,6 @@ header {
     width: 230px;
   }
 }
-
 
 .home {
   min-height: 100vh;
@@ -105,7 +100,7 @@ header {
   }
 }
 
-.schedule-teaser{
+.schedule-teaser {
   margin-bottom: 5rem;
 
   .schedule-teaser__left {
@@ -115,6 +110,10 @@ header {
   .schedule-teaser__heading {
     padding: 60px 20px 30px;
     text-align: right;
+  }
+
+  .schedule-teaser__left--red {
+    background: $secondary-color;
   }
 
   .schedule-teaser__right {
@@ -252,4 +251,9 @@ header {
     }
   }
 
+}
+
+.tito-submit {
+  background: $secondary-color !important;
+  border-color: $secondary-color !important;
 }
