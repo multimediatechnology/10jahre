@@ -171,7 +171,16 @@ header {
   }
 }
 
-.day2 {
+a.hashcode {
+  text-decoration: none;
+  padding: 4px 4px;
+    color: white;
+    background: #E40138 !important;
+    border-color: #E40138 !important;
+    margin: 1em 0;
+}
+
+.day0, .day2 {
   .date {
   }
   .date__headline {
@@ -219,9 +228,15 @@ header {
 }
 
 .event-logo {
-  height: 60px;
-  width: auto;
+  /* height: 60px; width: auto; */
+  height: auto; width: 200px; 
   margin-bottom: 2rem;
+}
+
+.event-logo-shift-right {
+  height: auto; width: 200px; 
+  margin-bottom: 2rem;
+  margin-right: -100px;
 }
 
 .sponsorship {
@@ -256,4 +271,11 @@ header {
 .tito-submit {
   background: $secondary-color !important;
   border-color: $secondary-color !important;
+}
+
+.tito-tickets-button {
+  color: white;
+  background: $secondary-color !important;
+  border-color: $secondary-color !important;
+  margin: 1em 0;
 }

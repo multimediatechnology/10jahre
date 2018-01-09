@@ -56,6 +56,43 @@ layout: default
 
 
 <section class="schedule">
+  <div class="row d-flex justify-content-center align-items-start day0">
+    <div class="col-3"></div>
+    <div class="col-12 col-md-5 mr-auto date">
+      <h3 class="date__headline">
+        <span class="date__headline--day">Thursday</span>
+        <span class="date__headline--date">| March 1<sup>st</sup> 2018</span>
+      </h3>
+    </div>
+
+    <div class="col-12 col-md-6 ml-auto day">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-6 col-md-5 day__left">
+        </div>
+        <div class="col-6 col-md-5 day__right">
+           {% img hashcode class="event-logo" %}
+          <p><a href="https://hashcode.withgoogle.com/" class="hashcode">Register for Hashcode</a></p>
+          <dl class="day__timetable">
+            <dt>
+              <time datetime="2018-03-01 18:00">6 pm</time>
+              <br> <h5 class="headline">Setup your Laptop</h5></dt>
+            <dd>and bring your Friends</dd>
+
+            <dt>
+              <time datetime="2018-03-01 18:30">6.30 pm</time>
+              <br> <h5 class="headline">Competition Starts</h5></dt>
+            <dd>Code, code, code, code, code, code, ...</dd>
+
+            <dt>
+              <time datetime="2018-03-03 11:00">10.30 pm</time>
+              <br> <h5 class="headline">Competition Closes</h5></dt>
+            <dd>hang out for a while longer and chill.</dd>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-2"></div>
+  </div>
   <div class="row d-flex justify-content-center align-items-start day1">
     <div class="col-2"></div>
     <div class="col-12 col-md-5 date">
@@ -67,37 +104,31 @@ layout: default
     <div class="col-12 col-md-6 day">
       <div class="row align-items-center justify-content-center">
         <div class="col-6 col-md-5 day__left">
-          {% img barcamp class="event-logo" %}
+          {% img fh-salzburg-mmt.svg class="event-logo-shift-right" %}
           <dl class="day__timetable">
             <dt>
-              <time datetime="2018-03-02 09:00">9 am</time>
-              <br> <h5 class="headline">Kickoff</h5></dt>
-            <dd>Say Hello to old friends and make new ones!</dd>
-
-            <dt>
               <time datetime="2018-03-02 10:00">10 am</time>
-              <br> <h5 class="headline">Session Planning</h5></dt>
-            <dd>Propose a talk, if you can find at least one person interested, you are good to go.</dd>
+              <br> <h5 class="headline">Jubiläums Empfang</h5></dt>
+            <dd>Der Studiengang MultiMediaTechnology feiert 10 Jahre</dd>
 
             <dt>
-              <time datetime="2018-03-02 11:00">11 am</time>
+              <time datetime="2018-03-02 12:30">12.30</time>
+              <br> <h5 class="headline">MultimediaTechnology Barcamp</h5></dt>
+            <dd>for Students, Graduates, Lecturers, Partners and Friends.</dd>
+
+            <dt>
+              <time datetime="2018-03-02 13:00">1pm</time>
+              <br> <h5 class="headline">Session Planning</h5></dt>
+            <dd>Meet all the people, propose a talk, vote on proposed talks.</dd>
+            <dt>
+              <time datetime="2018-03-02 14:00">2pm</time>
               <br> <h5 class="headline">Talks, Talks, Talks</h5></dt>
             <dd>Knowledge Transfer Deluxe</dd>
 
             <dt>
-              <time datetime="2018-03-02 12:30">12:30 pm</time>
-              <br> <h5 class="headline">Lunch Break</h5></dt>
-            <dd>Delicious food, served by Franz & Friends.</dd>
-
+              <time datetime="2018-03-02 18:00">6pm</time>
+              <br> <h5 class="headline">Barcamp Ends</h5></dt>
             <dt>
-              <time datetime="2018-03-02 14:00">2 pm</time>
-              <br> <h5 class="headline">Talks Pt. 2</h5></dt>
-            <dd>Listen baby, ain't no …</dd>
-
-            <dt>
-              <time datetime="2018-03-02 17:00">5 pm</time>
-              <br> <h5 class="headline">Hello Alumni</h5></dt>
-            <dd>MultiMediaTechnology 10th Anniversary</dd>
           </dl>
         </div>
         <div class="col-6 col-md-5 day__right">
@@ -138,6 +169,7 @@ layout: default
       <div class="row align-items-center justify-content-center">
         <div class="col-6 col-md-5 day__left">
           {% img concat class="event-logo" %}
+          <tito-button event="concat/2018" releases="ze-ww7twwsg" discount-code="MMT">Get your ticket now!</tito-button>
           <dl class="day__timetable">
             <dt>
               <time datetime="2018-03-02 09:00">9 am</time>
@@ -170,13 +202,13 @@ layout: default
             <dd>The reason we run this conference.</dd>
 
             <dt>
-              <time datetime="2018-03-03 18:00">5 pm</time>
+              <time datetime="2018-03-03 18:00">6 pm</time>
               <br> <h5 class="headline">Closing Talk</h5></dt>
             <dd>Another important talk.</dd>
           </dl>
         </div>
         <div class="col-6 col-md-5 day__right">
-          {% img concat class="event-logo" %}
+          <span style="font-size: 48px; white-space: nowrap">🎉</span>&nbsp;{% img party class="event-logo" %}
           <dl class="day__timetable">
             <dt>
               <time datetime="2018-03-03 20:00">8 pm</time>
